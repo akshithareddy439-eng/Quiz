@@ -18,6 +18,12 @@ For the first question, the program defines the question text, options, correct 
 
 For the second question, the code optimizes the process by storing all four choices inside a single String array instead of separate variables. It retrieves and displays these choices using zero-based array indexing (options[0] through options[3]), runs a similar conditional check to validate the simulated answer, and finally outputs the accumulated total score of two to the console.
 
+For the third question , The program defines a Question class with private variables for the question, options, and correct answer. It uses a constructor to initialize the data and a method to display the quiz. Encapsulation is applied using private variables, while if-else checks the user's answer. Exception handling is used with try-catch-finally, and throw handles invalid answers.
+
+For the fourth question , The program stores quiz questions, options, correct answers, and user answers using String arrays. It uses StringBuilder to modify question text, Arrays.sort() to sort questions, and String methods for searching and comparing answers. It uses FileWriter to save the quiz results to a file and try-catch to handle file errors.
+
+For the fifth question , The program stores quiz questions using the Collections Framework with an ArrayList. It uses lambda expressions with forEach() to display questions and a Stream pipeline with filter(), sorted(), and collect() to process the data. A Predicate functional interface is used to check questions based on their length.
+
 **Excution instructions:**
 >javac ProjectQuizPro.java
 >java ProjectQuizPro
